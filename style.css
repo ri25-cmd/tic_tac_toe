@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 4rem;
+}
+body{
+    background-color: #d490a1;
+    color: #361732;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    /* width: 70vh; */
+    /* background-color: #ff0004; */
+    display: flex;
+    flex-wrap: wrap;  /* i.e., agar jagah nhi h toh boxes nextline me aa jaenge*/
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;/*cerates space between the boxes*/
+    /* margin-top:1rem ; */
+
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    
+    display: flex;
+    flex-wrap: wrap;  /* i.e., agar jagah nhi h toh boxes nextline me aa jaenge*/
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;/*cerates space between the boxes*/
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #f1c5c6;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 0 0.5rem;
+    font-size: 8vmin;
+    color: #9e5682;
+}
+.reset-btn{
+    height: 50px;
+    width: 150px;
+    background-color: #7b4073;
+    color: beige;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+.newbtn{
+    height: 30px;
+    width: 120px;
+    background-color: #7b4073;
+    color: beige;
+    border: none;
+    font-size: 1rem;
+    border-radius: 1rem;
+    margin: 6px;
+}
+#msg{
+    font-size:6vmin;
+    margin: 6px;
+}
+.win-container{
+    height: 15vmin;
+}
+.hide{
+    display:none ;
+}
